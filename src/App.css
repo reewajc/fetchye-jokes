@@ -1,11 +1,35 @@
 .App {
   text-align: center;
+  
+}
+
+.fill-window {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(199, 194, 194);
+}
+
+body{
+  background-color: gray;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+.d-block {
+  font-size: 4em;
+}
+.d-block {
+  font-size: 4em;
+  border-radius: 25px;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,3 +60,6 @@
     transform: rotate(360deg);
   }
 }
+
+
+
