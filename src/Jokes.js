@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react'
 import { useState, useEffect } from 'react'
-import { Card, CardGroup } from 'react-bootstrap'
 import JokesSetup from './components/JokesSetup'
 
 
